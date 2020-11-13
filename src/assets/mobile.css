@@ -1,0 +1,120 @@
+@media(max-width:1200px){
+    .logo-mobile{
+        display: block;
+        margin: 0 auto;
+    }
+    .logo-desktop{
+        display: none;
+    }
+    .title{
+        font-size: 26px;
+    }
+
+    .main{
+        background-size: 430px;
+    }
+
+    .wheel{
+        width: 300px;
+    }
+    .wheel-btn{
+        width: 188px;
+    }
+
+    .money_non-focus{
+        display: none;
+    }
+    
+    .main-wrap{
+        background-position-x:center;
+    }
+    .rotate-wheel-btn {
+        width: 120px;
+        height: 75px;
+    }
+
+    .money-left-top,
+    .money-right-bottom,
+    .money-right-center{
+        display: none;
+    }
+    .mt-mobile{
+        margin-top: 90px;
+    }
+    .money{
+        width: 65px;
+    }
+
+    .cub_left{
+        bottom: -220px;
+    }
+    .cub_right {
+        top: -93px;
+        right: 28%;
+    }
+    .money-right-top{
+        right: -6%;
+    }
+    
+    .money-right-top{
+        width: 50px;
+    }
+    .rights{
+        font-size: 9px;
+    }
+    .counter{
+        left: 2px;
+        top: 140px;
+        cursor: default;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .counter__num{
+        font-size: 26px;
+        margin-right: 0;
+        padding: 10px 24px;
+        margin: 0;
+    }
+
+}
+
+@media(max-width:1100px){
+    .modal{
+        width: 50%;
+    }
+}
+
+@media(max-width:768px){
+    .main-wrap{
+        background-position-x: -890px;
+    }
+    .modal{
+        width: 60%;
+    }
+}
+
+@media(max-width:576px){
+    .modal{
+        width: 90%;
+    }
+    .modal-money-right {
+        right: 90px;
+        bottom: -120px;
+    }
+    .modal-money-left {
+        top: 60px;
+        left: -80px;
+    }
+    .btn-modal{
+        font-size: 20px;
+    }
+    .modal-chip-red {
+        top: -27px;
+        right: -120px;
+    }
+
+    .modal .modal-footer{
+        width: 265px;
+    }
+}
