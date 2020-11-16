@@ -53,7 +53,6 @@ export default {
 </script>
 <style lang="scss">
 @import "~materialize-css/dist/css/materialize.min.css";
-//@import "./assets/font/stylesheet.css";
 @import "./assets/css/style.css";
 @import "./assets/css/mobile.css";
 html,body{
